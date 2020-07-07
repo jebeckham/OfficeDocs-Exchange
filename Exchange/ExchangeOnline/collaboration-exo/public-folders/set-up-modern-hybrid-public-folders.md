@@ -83,7 +83,7 @@ Where `Credential` is your Microsoft 365 or Office 365 username and password, an
 
 The final step in this procedure is to configure the Exchange online organization and to allow access to the Exchange Server public folders.
 
-Enable the exchange online organization to access the on-premises public folders. You will point to all of you on-premises public folder mailboxes.
+Enable the exchange online organization to access the on-premises public folders. You will point to all of your on-premises public folder mailboxes.
 
 ```PowerShell
 Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes PFMailbox1,PFMailbox2,PFMailbox3
